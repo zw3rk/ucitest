@@ -1,5 +1,5 @@
 {
-  description = "A very basic test flake";
+  description = "A very basic test flake.";
 
   outputs = { self, nixpkgs }: rec {
     packages.x86_64-linux.hello = nixpkgs.legacyPackages.x86_64-linux.hello;
